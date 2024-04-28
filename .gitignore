@@ -1,0 +1,53 @@
+# General settings
+.DS_Store
+Thumb.db
+
+# Backend settings (Go)
+/backend/bin/
+/backend/pkg/
+/backend/vendor/
+/backend/*.log
+/backend/*.pid
+/backend/*.pid.lock
+/backend/tmp/
+/backend/.env
+**/bin/
+**/pkg/
+**/vendor/
+
+# Contracts settings (Solidity/Node.js)
+/contracts/node_modules/
+/contracts/build/
+/contracts/artifacts/
+/contracts/cache/
+
+# Android settings
+/android/.gradle/
+/android/build/
+/android/*/build/
+/android/*/out/
+/android/.idea/
+/android/*.iml
+/android/local.properties
+/android/.DS_Store
+/android/captures/
+/android/externalNativeBuild/
+
+# Compiled Object files, Caches and Logs
+*.o
+*.a
+*.so
+**/obj/
+*.ko
+*.elf
+*.log
+*.swp
+*.lock
+*.out
+*.tmp
+*.tmp.*
+
+
+# Editor directories and files
+.idea/
+.vscode/
